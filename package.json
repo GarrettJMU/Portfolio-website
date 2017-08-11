@@ -1,0 +1,8 @@
+{
+  "name": "portfolio-website",
+  "private": true,
+  "dependencies": {
+    "typed.js": "^2.0.5",
+    "typeit": "^4.4.0"
+  }
+}

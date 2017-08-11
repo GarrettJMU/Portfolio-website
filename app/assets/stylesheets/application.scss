@@ -1,0 +1,261 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body {
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px
+}
+
+
+ #header_round {
+   width: 100%;
+
+ }
+ .myButton {
+	background-color:transparent;
+  bottom:   0;
+  cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+  border: none;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+button:focus {outline:0;}
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto
+ }
+ .first {
+    background-image: url(apple-background.jpg);
+    background-repeat: no-repeat;
+    image-resolution: from-image;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+ }
+  .header_text {
+    color: white;
+  }
+ .header_logo {
+   height: 200px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -60px;
+ }
+ footer{
+   background: #233140
+ }
+ footer p {
+   color: grey;
+ }
+ .footer_logo {
+   height: 10em;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0px;
+   margin-bottom: -20px;
+ }
+ .second {
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   justify-content: space-between;
+   flex-direction: column;
+   display: flex;
+   background: #ffffff;
+ }
+
+ .center_text {
+   text-align: center;
+ }
+ a {
+      text-decoration:none;
+   }
+ #hire_me {
+  background: #E59D4C;
+  background-image: -webkit-linear-gradient(top, #E59D4C, #E59D4C);
+  background-image: -moz-linear-gradient(top, #E59D4C, #E59D4C);
+  background-image: -ms-linear-gradient(top, #E59D4C, #E59D4C);
+  background-image: -o-linear-gradient(top, #E59D4C, #E59D4C);
+  background-image: linear-gradient(to bottom, #E59D4C, #E59D4C);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  -webkit-box-shadow: 0px 3px 4px #666666;
+  -moz-box-shadow: 0px 3px 4px #666666;
+  box-shadow: 0px 3px 4px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+}
+
+#hire_me:hover {
+  color:#2A3A3F;
+  background-color:#E59D4C;
+  border-color: #E59D4C;
+  border:2px solid #fff;
+  padding:1.4rem 4.2rem
+}
+
+#rotating_text  {
+  margin-top: -20px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}

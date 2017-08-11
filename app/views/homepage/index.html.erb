@@ -1,0 +1,66 @@
+<body>
+  <div class="first">
+    <img class="header_logo" src="assets/logo.png" alt="logo">
+    <br>
+    <div id="header_round">
+      <span class="type-it">
+        <div id="typed-strings">
+            <h1 id="header_text"class="center_text header_text"> Hi, my name is Garrett Hughes and I create </h1>
+            <h1 id="rotating_text" class="center_text header_text"></h1>
+        </div>
+        <span id="typed"></span>
+      </span>
+      <script>
+        $('#rotating_text').typeIt({
+          strings: ["websites", "newsletters", "web applications", "landing pages"],
+          speed: 50,
+          breakLines: false,
+          autoStart: false,
+          loop: true,
+          deletedelay: 6000,
+          deleteSpeed: 100
+        });
+      </script>
+      <br>
+      <a href="/assets/Garrett-Hughes-Resume.pdf">
+        <button id="hire_me" class="center">Yes, I'm available for hire</button>
+      </a>
+    </div>
+    <br>
+    <button class="myButton" type="button" onclick="smoothScroll(document.getElementById('second'))">Learn More about me <br> ↓</button>
+  </div>
+  <div class="second" id="second">
+    <div class="about">
+      <p>My name is Garrett Hughes, I'm an entrepenuer, software developer, photographer and designer. </p>
+    </div>
+  </div>
+  <div class="third" id="third">
+    <div class="expertise">
+      <div class="favicon">
+
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  <div class="fourth" id="fourth">
+    <div class="porfolio">
+
+    </div>
+  </div>
+</body>
+
+<footer>
+  <img class="footer_logo" src="assets/logo.png" alt="logo">
+  <p class="center_text">Handmade by me © 2017</p>
+  <div class="footer-social-icons">
+    <ul class="social-icons">
+        <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+    </ul>
+</div>
+  put in social icons here
+</footer>
